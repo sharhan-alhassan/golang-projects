@@ -1,15 +1,20 @@
 # golang-projects
 All Golang-based projects
 
-# Setup and Installation of packages
+## Set up a project
 ```sh
-# 1. Initilize project as module
-go mod init github.com/sharhan-alhassan/golang-projects/fiber/official
+# 1. cd into go src
+cd $GOPATH/src
 
-# 2. Install your packages
+# 2. clone your repo in there
+git clone git@github.com:sharhan-alhassan/golang-projects.git
+
+# 3. Initialize your go project
+go mod init
+
+# 4. Install any other dependencies
 go get github.com/gofiber/fiber/v2  
 
-# 3. 
 ```
 
 # Modules Setup
