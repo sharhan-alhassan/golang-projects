@@ -9,6 +9,9 @@ cd $GOPATH/src
 # 2. clone your repo in there
 git clone git@github.com:sharhan-alhassan/golang-projects.git
 
+# Or cd into the git directory and clone the repo in there
+cd $GOPATH/src/github.com/sharhan-alhassan && git clone git@github.com:sharhan-alhassan/golang-projects.git
+
 # 3. Initialize your go project
 go mod init
 
